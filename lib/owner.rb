@@ -53,8 +53,8 @@ class Owner
   def feed_hamster
     @pets.collect do |species, instances|
       if species == :hamster
-        instances.each do |fish|
-          fish.mood = "happy"
+        instances.each do |hamster|
+          hamster.mood = "happy"
         end
       end
     end
