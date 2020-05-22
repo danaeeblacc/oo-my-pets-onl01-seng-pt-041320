@@ -7,5 +7,3 @@ class Cat
     @mood = "nervous"
   end
 end
-
-end
