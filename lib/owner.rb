@@ -19,7 +19,7 @@ class Owner
   Pets #
 
   def buy_hamster (name_of_hamster)
-    @pets[:hamster] << Fish.new(name_of_fish)
+    @pets[:hamster] << hamster.new(name_of_hamster)
   end
 
   def buy_dog(name_of_dog)
@@ -73,7 +73,7 @@ class Owner
     num_dogs = @pets[:dogs].size
     num_cats = @pets[:cats].size
     num_hamster = @pets[:hamster].size
-    return "I have #{num_hamster} fish, #{num_dogs} dog(s), and #{num_cats} cat(s)."
+    return "I have #{num_hamster} hamster, #{num_dogs} dog(s), and #{num_cats} cat(s)."
   end
 
   # Class Methods #
