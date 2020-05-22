@@ -18,8 +18,8 @@ class Owner
 
   Pets #
 
-  def buy_fish(name_of_fish)
-    @pets[:fishes] << Fish.new(name_of_fish)
+  def buy_hamster (name_of_hamster)
+    @pets[:hamster] << Fish.new(name_of_fish)
   end
 
   def buy_dog(name_of_dog)
